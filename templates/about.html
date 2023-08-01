@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>College Allotment Predictor using Machine Learning</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+    crossorigin="anonymous">
+  <style>
+    body {
+      background-image: url('/static/back.jpeg');
+    }
+
+    .row {
+      position: relative;
+      left: 20%;
+    }
+
+    .text {
+      font-size: 1.25rem;
+      font-weight: 300;
+      width: 270%;
+    }
+
+    #btn {
+      position: relative;
+      left: 82%;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark mb-3">
+    <div class="container">
+      <a href="#" class="navbar-brand">College Allotment Predictor</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#Nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="Nav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active"><a href="/" class="nav-link">HOME</a></li>
+          <li class="nav-item"><a href="/colleges" class="nav-link">COLLEGES</a></li>
+          <li class="nav-item"><a href="/about" class="nav-link">ABOUT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <center>
+    <h1>About Us</h1>
+    <p>Welcome to the College Allotment Predictor project! I have developed this tool with the aim of making the college
+      admission process easier for students like you.</p>
+    <p>I understand that applying to colleges can be a daunting task, especially when it comes to predicting which colleges
+      you're likely to get admitted into. That's where my predictor comes in. Using a combination of historical admission
+      data, current application trends, and machine learning algorithms, I am able to provide you with personalized
+      predictions of your chances of getting admitted into different colleges.</p>
+
+    <p>I have spent countless hours researching and analyzing admission data from a variety of colleges and universities
+      across the country. I have also consulted with admissions officers and college counselors to ensure that my
+      predictor is as accurate and reliable as possible.</p>
+
+    <p>But I know that college admissions is about more than just numbers and statistics. That's why my tool also takes
+      into account your individual preferences and priorities, such as location, academic interests, and extracurricular
+      activities. I want to help you find the colleges that are the best fit for you, both academically and personally.</p>
+
+    <p>I am committed to continuously improving and updating my predictor as new data becomes available and admission
+      trends change. I believe that everyone should have access to the information they need to make informed decisions
+      about their education and future.</p>
+
+    <p>Thank you for choosing the College Allotment Predictor, and I wish you the best of luck in your college admissions
+      journey!</p>
+  </center>
+</body>
+<script>
+  $('.carousel').carousel({
+    interval: 3000,
+    keyboard: true,
+    pause: 'hover',
+    wrap: true
+  });
+
+  $('#slider4').on('slide.bs.carousel', function () {
+    console.log('SLIDE!');
+  });
+
+  $('#slider4').on('slid.bs.carousel', function () {
+    console.log('SLID!');
+  });
+
+</script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+  crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+  crossorigin="anonymous"></script>
+
+</html>
